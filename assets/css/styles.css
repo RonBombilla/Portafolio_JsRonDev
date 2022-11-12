@@ -1,0 +1,55 @@
+body{
+    background-image: url("../img/patternpad.png");
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.main-title{
+    font-size: 2.5rem;
+}
+
+.nav-link{
+    color:#ffff !important;
+    text-decoration: none;
+}
+
+.nav-item{
+    margin-right: 3rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.carousel-item img{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.p-text{
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #ffff;
+}
+
+.exp-card{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffff;
+}
+
+.sub-title, hr{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #ffff;
+}
+
+#foot-span{
+    margin: 25px;
+    color: #ffff;
+}
+
+.fa-brands{
+    font-size: 3rem;
+}
+
+
+ 

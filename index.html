@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>JavaRonDev</title>
+</head>
+
+<body>
+    <header>
+        <!--Navbar start-->
+        <nav
+            class="navbar navbar-nav-scroll fixed-top navbar-expand-lg bg-primary bg-gradient bg-opacity-25 navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-3 fw-bold" href="#home">JavaRonDev</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link offcanvas-sm" href="#resumen">Resumen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experiencia">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#trabajos">Trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar end-->
+    </header>
+
+    <section id="home">
+        <!--INICIO SLIDER-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-touch="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/una-taza-de-javascript.png" alt="JavaScript">
+                    <div class="carousel-caption">
+                        <h1 class="main-title">I AM</h1>
+                        <hr class="main-title bg-light">
+                        <h1 class="main-title">JAVARONDEV</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/3909225.jpg" class="d-block w-100" alt="NodeJS">
+                    <div class="carousel-caption">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/HTML-CSS-y-JavaScript-el-estándar-universal.png" class="d-block w-100"
+                        alt="Diseño Web">
+                    <div class="carousel-caption">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/Coding-Wallpapers20.webp" class="d-block w-100" alt="Java">
+                    <div class="carousel-caption">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/a3fad0_a53157815a4a471896a7b9bc8bf328f7_mv2.png" class="d-block w-100"
+                        alt="Servicio Técnico Pc">
+                    <div class="carousel-caption">
+                        <h5>fifth slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--FIN SLIDER-->
+    </section>
+
+    <aside id="resumen" class="container-fluid text-center offcanvas-sm">
+        <h1 class="sub-title pt-5">RESUMEN DE CONOCIMIENTOS</h1>
+        <hr class="m-5">
+        <div class="row row-col-12">
+            <p class="p-text col-xl-6 p-5">Técnico en administración de Recursos Humanos de DUOC UC, con experiencia con
+                el
+                Área de Servicio a personas en Supermercados Express de líder y en el Área de Remuneraciones de
+                UNISERVICE SPA.
+                Certificado como Desarrollador FullStack Java y Javascript por el programa Talento
+                Digital para Chile y certificado en Programación Python Básico por la Universidad Católica de Chile.
+                Adaptable a cualquier tipo y ambiente de trabajo con aptitudes para el trabajo en equipo, creativo,
+                detallista y meticuloso, motivación constante para aprender y desarrollarse.</p>
+            <p class="p-text col-xl-6 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque rem, enim
+                numquam
+                alias
+                nam placeat ratione consequatur iste dolor cum aliquam deleniti perferendis quisquam maiores! Cupiditate
+                sapiente ipsa quae consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque rem,
+                enim numquam alias
+                nam placeat ratione consequatur iste dolor cum aliquam deleniti perferendis quisquam maiores! Cupiditate
+                sapiente ipsa quae consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque rem,
+                enim numquam alias
+                nam placeat ratione consequatur iste dolor cum aliquam deleniti perferendis quisquam maiores! Cupiditate
+                sapiente ipsa quae consequuntur.</p>
+        </div>
+    </aside>
+
+    <aside id="experiencia" class="container text-center">
+        <h1 class="sub-title pt-5"><strong>ÚLTIMAS EXPERIENCIAS LABORALES</strong></h1>
+        <hr class="m-5">
+        <div class="row row-col-1 g-4">
+            <div class="col-md-2"></div>
+
+            <div class="exp-card col-md-4">
+                <div class="bg-transparent card h-100 border-0 ">
+                    <img src="assets/img/Sweet PC.png" class="card-img-top rounded-circle h-75 px-5" alt="Sweet PC">
+                    <div class="card-body">Técnico en computación y Desarrollador web</h5>
+                        <p class="card-text">Agosto 2020 - Actualidad</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exp-card col-md-4 ">
+                <div class="card bg-transparent h-100 border-0 ">
+                    <img src="assets/img/logo-85.png" class="card-img-top rounded-pill h-75" alt="Edutecno">
+                    <div class="card-body">
+                        <h5 class="card-title">Asistente Pedagógico</h5>
+                        <p class="card-text">Marzo 2022 - Actualidad</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2"></div>
+        </div>
+    </aside>
+
+    <section id="trabajos" class="container-fluid ">
+        <h1 class="sub-title text-center pt-5">MIS ÚLTIMOS TRABAJOS</h1>
+        <hr class="mt-5">
+        <!--INICIO CARDS-->
+        <div class="container">
+            <div class="row row-col-12 ">
+                <div class="col-lg-4">
+                    <div class="card m-2">
+                        <img src="assets/img/meet_coffee.png" class="card-img-top" alt="Meet & coffee">
+                        <div class="card-body">
+                            <h5 class="card-title">MEET & COFFEE</h5>
+                            <p class="card-text my-3">Maquetado de sitio Web estático solo con HTML y CSS, diseñada para
+                                un portal de noticias sobre eventos, entretención y
+                                cultura urbana, no está diseña para ser compatibles con dispositivos móviles.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card m-2">
+                        <img src="assets/img/iguana_page.png" class="card-img-top" alt="Iguana page">
+                        <div class="card-body">
+                            <h5 class="card-title">IGUANA PAGE</h5>
+                            <p class="card-text my-3">Iguana Page es creada para brindar toda la información que
+                                necesitas
+                                saber acerca
+                                del cuidado, alimentación, hábitat de una gran variedad de iguanas.v                                No está diseña para ser compatibles con dispositivos móviles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card m-2">
+                        <img src="assets/img/suricata.png" class="card-img-top" alt="Suricata">
+                        <div class="card-body">
+                            <h5 class="card-title">SURICATA FOODS</h5>
+                            <p class="card-text my-3">Página creada a modo de ejemplo para demostrar las propiedades de
+                                Bootstrap y como estás se pueden aplicar en el desarrollo de un Menú online, para su
+                                versión Web o para dispositivos móviles.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card m-2">
+                        <img src="assets/img/cuppon.png" class="card-img-top" alt="Cuppon">
+                        <div class="card-body">
+                            <h5 class="card-title">CUPPON</h5>
+                            <p class="card-text">Al igual que en Suricata Foods, esta es una página web estática de
+                                venta de cupones de descuento en productos y servicios creada para demostrar las
+                                propiedades de Bootstrap.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card m-2">
+                        <img src="assets/img/ricomida.png" class="card-img-top" alt="Ricomida">
+                        <div class="card-body">
+                            <h5 class="card-title">RICOMIDA</h5>
+                            <p class="card-text">Ricomida es un blog de recetas en la cual se combinan varias
+                                tecnologías para el desarrollo de páginas web como HTML, CSS, JS, Bootstrap y Jquery.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card m-2">
+                        <img src="assets/img/dmark.png" class="card-img-top" alt="DMark">
+                        <div class="card-body">
+                            <h5 class="card-title">DMARK</h5>
+                            <p class="card-text my-3">Web ficticia creada para un estudio de abogados especialistas en
+                                marcas
+                                registradas y asesoria para conflictos legales.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--FIN CARDS-->
+    </section>
+
+    <footer id="contacto" class="foot-nav text-center">
+        <h1 class="sub-title pt-5">CONTÁCTAME</h1>
+        <hr class="m-5">
+        <!--Footer start-->
+        <div data-tf-widget="KWX9v2Qo" data-tf-iframe-props="title=Contacto" data-tf-medium="snippet"
+            style="width:100%;height:500px;"></div>
+
+        <ul class="nav justify-content-center py-3">
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/ron_bombilla/"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+                <span id="foot-span">Instagram</span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/aaron-ubilla-jelvez-72015b1b5"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <span id="foot-span">LinkedIn</span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/aaron.ubilla.31"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+                <span id="foot-span">Facebook</span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/RonBombilla?tab=repositories"><i
+                        class="fa-brands fa-square-github"></i></a>
+                <span id="foot-span">Github</span>
+            </li>
+        </ul>
+
+        <!--Footer start-->
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="//embed.typeform.com/next/embed.js"></script>
+</body>
+
+</html>
